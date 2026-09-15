@@ -2,8 +2,6 @@
 
 <p align="center">Product Engineer @ <a href="https://github.com/UtahAILab">Utah AI Lab</a> · B.S. Electrical Engineering, University of Utah</p>
 
-<p align="center"><img src="https://hits.sh/github.com/holdenjdao.svg?view=total&style=flat-square&label=profile%20views&color=4FB3CE&labelColor=0d1117" alt="Profile views"/></p>
-
 ## ⚡ Toolchain
 
 |  |  |
@@ -36,4 +34,6 @@
 <a href="https://www.linkedin.com/in/holdendao"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjNEZCM0NFIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn"/></a>
 &nbsp;
 <a href="mailto:holden.dao@utah.edu"><img src="https://img.shields.io/badge/holden.dao%40utah.edu-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzRGQjNDRSIgZD0iTTIwIDRINGMtMS4xIDAtMS45OS45LTEuOTkgMkwyIDE4YzAgMS4xLjkgMiAyIDJoMTZjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uOS0yLTItMnptMCA0bC04IDUtOC01VjZsOCA1IDgtNXYyeiIvPjwvc3ZnPg%3D%3D" alt="Email"/></a>
+&nbsp;
+<img src="https://hits.sh/github.com/holdenjdao.svg?view=total&style=flat-square&label=profile%20views&color=4FB3CE&labelColor=0d1117" alt="Profile views"/>
 </p>
