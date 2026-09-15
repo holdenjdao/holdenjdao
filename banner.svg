@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Holden Dao — a sawtooth wave being convolved with a Gaussian kernel on an oscilloscope">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Holden Dao — RF, embedded systems, AI infrastructure">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0a151b"/>
       <stop offset="1" stop-color="#0e2129"/>
     </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4fb3ce" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#4fb3ce" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#4fb3ce" stop-opacity="0"/>
+    </linearGradient>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge>
         <feMergeNode in="b"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <clipPath id="reveal">
-      <rect x="0" y="160" width="0" height="80">
-        <animate attributeName="width" from="0" to="1200" dur="9s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
   </defs>
 
   <rect width="1200" height="280" fill="url(#bg)"/>
@@ -29,23 +29,19 @@
   <text x="1176" y="34" text-anchor="end" font-family="ui-monospace,'Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#4fb3ce" opacity="0.85">t: 1ms/div   TRIG &#9650;</text>
 
   <!-- name -->
-  <text x="600" y="112" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Menlo,Consolas,monospace" font-size="54" font-weight="700" letter-spacing="8" fill="#e6edf3">HOLDEN DAO</text>
-  <text x="600" y="150" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Menlo,Consolas,monospace" font-size="18" fill="#4fb3ce">&gt; rf systems &#183; embedded firmware &#183; ai infrastructure<tspan fill="#4fb3ce">&#9615;<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+  <text x="600" y="118" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Menlo,Consolas,monospace" font-size="54" font-weight="700" letter-spacing="8" fill="#e6edf3">HOLDEN DAO</text>
+  <text x="600" y="158" text-anchor="middle" font-family="ui-monospace,'Cascadia Code',Menlo,Consolas,monospace" font-size="18" fill="#4fb3ce">&gt; rf systems &#183; embedded firmware &#183; ai infrastructure<tspan fill="#4fb3ce">&#9615;<animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></tspan></text>
 
-  <!-- baseline -->
-  <path d="M0 230 H1200" stroke="#1d3d4c" stroke-width="1.5"/>
+  <!-- waveform: sine burst, digital pulses, carrier, noise -->
+  <path d="M0 225 H140 q20 -56 40 0 q20 56 40 0 q20 -56 40 0 q20 56 40 0 q20 -56 40 0 q20 56 40 0 h30 v-40 h40 v40 h30 v-40 h40 v40 h30 h30 q25 -70 50 0 q25 70 50 0 q25 -70 50 0 q25 70 50 0 h30 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 h30 v-40 h30 v40 h30 H1200" fill="none" stroke="#4fb3ce" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
 
-  <!-- f(tau): sawtooth train -->
-  <path d="M350 230 L450 185 L450 230 L550 185 L550 230 L650 185 L650 230 L750 185 L750 230" fill="none" stroke="#33788c" stroke-width="2" stroke-linejoin="round"/>
+  <!-- trace dot: current position of the signal -->
+  <circle r="5" fill="#bfe9f5" filter="url(#glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M0 225 H140 q20 -56 40 0 q20 56 40 0 q20 -56 40 0 q20 56 40 0 q20 -56 40 0 q20 56 40 0 h30 v-40 h40 v40 h30 v-40 h40 v40 h30 h30 q25 -70 50 0 q25 70 50 0 q25 -70 50 0 q25 70 50 0 h30 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 h30 v-40 h30 v40 h30 H1200"/>
+  </circle>
 
-  <!-- y(t) = (f * g)(t): sawtooth smoothed into a wave, revealed at the kernel's center -->
-  <g clip-path="url(#reveal)">
-    <path d="M0 230 H275 C310 227 330 214 355 210 C385 205 410 198 438 199 C458 200 468 216 488 217 C508 218 518 199 540 199 C562 199 570 216 588 217 C608 218 618 199 640 199 C662 199 670 216 688 217 C708 218 718 197 740 198 C765 200 790 218 815 226 C830 229 850 230 870 230 H1200" fill="none" stroke="#9fdcec" stroke-width="2.5" stroke-linecap="round" filter="url(#glow)"/>
-  </g>
-
-  <!-- g(t - tau): Gaussian kernel sliding in t -->
-  <g>
-    <path d="M-78 230 C-38 230 -26 187 0 187 C26 187 38 230 78 230" fill="#4fb3ce" fill-opacity="0.14" stroke="#4fb3ce" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="1200 0" dur="9s" repeatCount="indefinite"/>
-  </g>
+  <!-- sweep -->
+  <rect x="0" y="0" width="140" height="280" fill="url(#scan)">
+    <animateTransform attributeName="transform" type="translate" from="-140 0" to="1200 0" dur="6s" repeatCount="indefinite"/>
+  </rect>
 </svg>
