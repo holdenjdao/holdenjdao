@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Holden Dao — a continuous-time convolution animating on an oscilloscope">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Holden Dao — a sawtooth wave being convolved with a Gaussian kernel on an oscilloscope">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0a151b"/>
@@ -35,23 +35,17 @@
   <!-- baseline -->
   <path d="M0 230 H1200" stroke="#1d3d4c" stroke-width="1.5"/>
 
-  <!-- f(tau): fixed input pulse -->
-  <path d="M450 230 V185 H650 V230 Z" fill="#4fb3ce" fill-opacity="0.07" stroke="#33788c" stroke-width="2" stroke-linejoin="round"/>
-  <text x="538" y="177" font-family="ui-monospace,'Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#33788c">f(&#964;)</text>
+  <!-- f(tau): sawtooth train -->
+  <path d="M350 230 L450 185 L450 230 L550 185 L550 230 L650 185 L650 230 L750 185 L750 230" fill="none" stroke="#33788c" stroke-width="2" stroke-linejoin="round"/>
 
-  <!-- y(t) = (f * g)(t): revealed in sync with the kernel's leading edge -->
+  <!-- y(t) = (f * g)(t): sawtooth smoothed into a wave, revealed at the kernel's center -->
   <g clip-path="url(#reveal)">
-    <path d="M0 230 H450 C485 203 560 192 650 190 C690 216 745 227 810 229.5 H1200" fill="none" stroke="#9fdcec" stroke-width="2.5" stroke-linecap="round" filter="url(#glow)"/>
-    <text x="668" y="205" font-family="ui-monospace,'Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#9fdcec">y(t)</text>
+    <path d="M0 230 H275 C310 227 330 214 355 210 C385 205 410 198 438 199 C458 200 468 216 488 217 C508 218 518 199 540 199 C562 199 570 216 588 217 C608 218 618 199 640 199 C662 199 670 216 688 217 C708 218 718 197 740 198 C765 200 790 218 815 226 C830 229 850 230 870 230 H1200" fill="none" stroke="#9fdcec" stroke-width="2.5" stroke-linecap="round" filter="url(#glow)"/>
   </g>
 
-  <!-- g(t - tau): flipped exponential kernel sliding in t -->
+  <!-- g(t - tau): Gaussian kernel sliding in t -->
   <g>
-    <path d="M-150 229 C-95 226 -48 212 0 182 V230 H-150 Z" fill="#4fb3ce" fill-opacity="0.14" stroke="#4fb3ce" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
-    <text x="-96" y="172" font-family="ui-monospace,'Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#4fb3ce">g(t&#8722;&#964;)</text>
+    <path d="M-78 230 C-38 230 -26 187 0 187 C26 187 38 230 78 230" fill="#4fb3ce" fill-opacity="0.14" stroke="#4fb3ce" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
     <animateTransform attributeName="transform" type="translate" from="0 0" to="1200 0" dur="9s" repeatCount="indefinite"/>
   </g>
-
-  <!-- the integral -->
-  <text x="24" y="264" font-family="ui-monospace,'Cascadia Code',Menlo,Consolas,monospace" font-size="13" fill="#3d8ba1">y(t) = (f &#8727; g)(t) = &#8747; f(&#964;) g(t&#8722;&#964;) d&#964;</text>
 </svg>
