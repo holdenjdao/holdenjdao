@@ -78,7 +78,7 @@
 <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=holdenjdao&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&count_private=true&theme=dark&hide_border=true" />
 
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=holdenjdao&theme=github_dark" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=holdenjdao&theme=github-compact&cache_seconds=60&hide_border=true" />
+<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=holdenjdao&layout=compact&theme=dark&hide_border=true" />
 
 </div>
 
