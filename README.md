@@ -2,6 +2,8 @@
 
 <p align="center">Product Engineer @ <a href="https://github.com/UtahAILab">Utah AI Lab</a> · B.S. Electrical Engineering, University of Utah</p>
 
+<p align="center"><img src="https://hits.sh/github.com/holdenjdao.svg?view=total&style=flat-square&label=profile%20views&color=4FB3CE&labelColor=0d1117" alt="Profile views"/></p>
+
 ## ⚡ Toolchain
 
 |  |  |
