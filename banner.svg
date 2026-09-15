@@ -35,11 +35,6 @@
   <!-- waveform: sine burst, digital pulses, carrier, noise -->
   <path d="M0 225 H140 q20 -56 40 0 q20 56 40 0 q20 -56 40 0 q20 56 40 0 q20 -56 40 0 q20 56 40 0 h30 v-40 h40 v40 h30 v-40 h40 v40 h30 h30 q25 -70 50 0 q25 70 50 0 q25 -70 50 0 q25 70 50 0 h30 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 h30 v-40 h30 v40 h30 H1200" fill="none" stroke="#4fb3ce" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
 
-  <!-- trace dot: current position of the signal -->
-  <circle r="5" fill="#bfe9f5" filter="url(#glow)">
-    <animateMotion dur="7s" repeatCount="indefinite" path="M0 225 H140 q20 -56 40 0 q20 56 40 0 q20 -56 40 0 q20 56 40 0 q20 -56 40 0 q20 56 40 0 h30 v-40 h40 v40 h30 v-40 h40 v40 h30 h30 q25 -70 50 0 q25 70 50 0 q25 -70 50 0 q25 70 50 0 h30 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 q10 -30 20 0 q10 30 20 0 h30 v-40 h30 v40 h30 H1200"/>
-  </circle>
-
   <!-- sweep -->
   <rect x="0" y="0" width="140" height="280" fill="url(#scan)">
     <animateTransform attributeName="transform" type="translate" from="-140 0" to="1200 0" dur="6s" repeatCount="indefinite"/>
