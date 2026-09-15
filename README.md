@@ -1,99 +1,47 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Holden%20Dao&fontColor=ffffff&fontSize=60&desc=RF%20%C2%B7%20Embedded%20Systems%20%C2%B7%20AI%20Infrastructure&descAlignY=62&animation=fadeIn" width="100%"/>
+<img src="banner.svg" width="100%" alt="Holden Dao — RF · Embedded Systems · AI Infrastructure"/>
+
+```c
+/* holden_dao.h */
+#define ROLE     "Product Engineer @ Utah AI Lab"
+#define DEGREE   "B.S. Electrical Engineering — University of Utah"
+#define FOCUS    { "RF systems", "embedded firmware", "AI infrastructure" }
+#define MISSION  "bridge hardware and software — from PCB traces to production pipelines"
+```
+
+## ⚡ Toolchain
+
+|  |  |
+|---|---|
+| `languages` | ![C](https://img.shields.io/badge/C-0d1117?style=flat-square&logo=c&logoColor=00d9a5) ![C++](https://img.shields.io/badge/C%2B%2B-0d1117?style=flat-square&logo=cplusplus&logoColor=00d9a5) ![Rust](https://img.shields.io/badge/Rust-0d1117?style=flat-square&logo=rust&logoColor=00d9a5) ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00d9a5) ![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=00d9a5) ![SQL](https://img.shields.io/badge/SQL-0d1117?style=flat-square&logo=sqlite&logoColor=00d9a5) ![MATLAB](https://img.shields.io/badge/MATLAB-0d1117?style=flat-square) |
+| `hardware / rf` | ![KiCad](https://img.shields.io/badge/KiCad-0d1117?style=flat-square&logo=kicad&logoColor=00d9a5) ![Altium](https://img.shields.io/badge/Altium%20Designer-0d1117?style=flat-square) ![ESP32](https://img.shields.io/badge/ESP32-0d1117?style=flat-square&logo=espressif&logoColor=00d9a5) ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-0d1117?style=flat-square&logo=raspberrypi&logoColor=00d9a5) ![RTL-SDR](https://img.shields.io/badge/RTL--SDR-0d1117?style=flat-square) ![GNU Radio](https://img.shields.io/badge/GNU%20Radio-0d1117?style=flat-square) |
+| `ai / infra` | ![vLLM](https://img.shields.io/badge/vLLM-0d1117?style=flat-square&logo=vllm&logoColor=00d9a5) ![CUDA](https://img.shields.io/badge/CUDA-0d1117?style=flat-square&logo=nvidia&logoColor=00d9a5) ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=00d9a5) ![Kubernetes](https://img.shields.io/badge/Kubernetes-0d1117?style=flat-square&logo=kubernetes&logoColor=00d9a5) ![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=00d9a5) ![Bash](https://img.shields.io/badge/Bash-0d1117?style=flat-square&logo=gnubash&logoColor=00d9a5) ![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=00d9a5) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-0d1117?style=flat-square&logo=githubactions&logoColor=00d9a5) |
+
+## 📡 Selected Work
+
+| project | signal path | stack |
+|---|---|---|
+| **Weather Satellite Imaging Receiver** | `antenna ─▶ RTL-SDR ─▶ GNU Radio ─▶ demod ─▶ earth imagery` — decodes METEOR M2-4 transmissions with a hand-built antenna, >90% image reconstruction | `GNU Radio` `CST Studio` `DSP` |
+| **GPS Tracking Device** | `NEO-6M ─▶ ESP32 ─▶ telemetry` — real-time coordinates, speed, and altitude at 99% accuracy | `C` `Rust` `ESP32` |
+| **[Prompt Intent Taxonomy](https://github.com/holdenjdao/tokenomics)** | `prompt ─▶ intent IR ─▶ router` — provider-neutral schema for what a user wants from an AI system, so routers can pick cheaper execution paths | `YAML` `JSON Schema` |
+| **[Portfolio](https://github.com/holdenjdao/holdenjdao.github.io)** | live at [holdenjdao.github.io](https://holdenjdao.github.io) | `HTML` `CSS` `JS` |
+
+## 📊 Telemetry
 
 <div align="center">
 
-### `Product Engineer` · `Electrical Engineering` · `RF & Embedded`
-
-*Electrical Engineering student at the University of Utah and Product Engineer at Utah AI Lab — bridging hardware and software, from PCB traces and RF front-ends to production AI pipelines.<br><br>*
-
-<br>
-
-<p align="center">
-    <a href="https://www.linkedin.com/in/holdendao">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    </a>
-    <a href="https://holdenjdao.github.io">
-      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio"/>
-    </a>
-    <a href="mailto:holden.dao@utah.edu">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-    </a>
-  </p>
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=holdenjdao&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views"/>
-    <img src="https://img.shields.io/github/followers/holdenjdao?style=flat-square&logo=github&label=Followers" alt="Followers"/>
-    <img src="https://img.shields.io/github/stars/holdenjdao?affiliations=OWNER&style=flat-square&logo=github&label=Stars" alt="Stars"/>
-  </p>
-
----
-
-## Tech Stack
-
-<img src="https://skillicons.dev/icons?i=c" width="45"/>
-<img src="https://skillicons.dev/icons?i=cpp" width="45"/>
-<img src="https://skillicons.dev/icons?i=rust" width="45"/>
-<img src="https://skillicons.dev/icons?i=py" width="45"/>
-<img src="https://skillicons.dev/icons?i=java" width="45"/>
-<img src="https://skillicons.dev/icons?i=matlab" width="45"/>
-<img src="https://skillicons.dev/icons?i=mysql" width="45"/>
-<img src="https://skillicons.dev/icons?i=js" width="45"/>
-<img src="https://skillicons.dev/icons?i=html" width="45"/>
-<img src="https://skillicons.dev/icons?i=css" width="45"/>
-
-<br>
-
-<img src="https://cdn.simpleicons.org/kicad/314CB0" width="45" alt="KiCad"/>
-<img src="https://cdn.simpleicons.org/espressif/E7352C" width="45" alt="ESP32"/>
-<img src="https://skillicons.dev/icons?i=raspberrypi" width="45"/>
-<img src="https://cdn.simpleicons.org/nvidia/76B900" width="45" alt="CUDA"/>
-<img src="https://skillicons.dev/icons?i=docker" width="45"/>
-<img src="https://skillicons.dev/icons?i=kubernetes" width="45"/>
-<img src="https://skillicons.dev/icons?i=linux" width="45"/>
-<img src="https://skillicons.dev/icons?i=bash" width="45"/>
-<img src="https://skillicons.dev/icons?i=git" width="45"/>
-<img src="https://skillicons.dev/icons?i=github" width="45"/>
-
----
+<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=holdenjdao&show_icons=true&count_private=true&bg_color=0D1117&title_color=00D9A5&icon_color=00D9A5&text_color=E6EDF3&border_color=1C2733" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=holdenjdao&background=0D1117&border=1C2733&ring=00D9A5&fire=00D9A5&currStreakLabel=00D9A5&currStreakNum=E6EDF3&sideNums=E6EDF3&sideLabels=7D8590&dates=7D8590" />
 
 </div>
 
-## 🚀 Projects
+## 📟 Reach Me
 
-- 🛰️ **Weather Satellite Imaging Receiver** — DSP pipeline that filters, demodulates, synchronizes, and decodes METEOR M2-4 weather-satellite transmissions into Earth imagery, using an RTL-SDR and a hand-built antenna with >90% reconstruction success *(GNU Radio, CST Studio, DSP)*
-- 📡 **GPS Tracking Device** — Embedded GPS tracker on an ESP32 with a NEO-6M module, capturing real-time coordinates, speed, and altitude at 99% accuracy *(C, Rust, ESP32)*
-- 🧭 **[Prompt Intent Taxonomy](https://github.com/holdenjdao/tokenomics)** — Provider-neutral taxonomy and schema for representing user intent in AI systems, so routers can pick cheaper execution paths without losing the request's meaning *(YAML, JSON Schema)*
-- 🌐 **[Portfolio](https://github.com/holdenjdao/holdenjdao.github.io)** — Personal site, live at [holdenjdao.github.io](https://holdenjdao.github.io) *(HTML, CSS, JavaScript)*
+```console
+$ ping holden
+```
 
----
+<a href="https://www.linkedin.com/in/holdendao"><img src="https://img.shields.io/badge/in%2Fholdendao-0d1117?style=flat-square" alt="LinkedIn"/></a>
+<a href="https://holdenjdao.github.io"><img src="https://img.shields.io/badge/holdenjdao.github.io-0d1117?style=flat-square&logo=githubpages&logoColor=00d9a5" alt="Portfolio"/></a>
+<a href="mailto:holden.dao@utah.edu"><img src="https://img.shields.io/badge/holden.dao@utah.edu-0d1117?style=flat-square&logo=gmail&logoColor=00d9a5" alt="Email"/></a>
 
-<h2 align="center"> <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> GitHub Statistics</h2>
-
-<div align="center">
-
-<img width="32%" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=holdenjdao&theme=dark&cache_seconds=60" />
-<img width="32%" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=holdenjdao&theme=dark&cache_seconds=60" />
-<img width="32%" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=holdenjdao&theme=dark&cache_seconds=60" />
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=holdenjdao&theme=dark&date_format=M%20j%5B,%20Y%5D&fire=DD2727&ring=DD2727&currStreakLabel=DD2727&cache_seconds=60&hide_border=true" />
-<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=holdenjdao&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&count_private=true&theme=dark&hide_border=true" />
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=holdenjdao&theme=github_dark" />
-<img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=holdenjdao&layout=compact&theme=dark&hide_border=true" />
-
-</div>
-
----
-
-<div align="center">
-
-## 🤝 Connect With Me
-
-*Always open to collaborating on hardware/software projects, talking RF, embedded systems, and AI infrastructure, or teaming up on research.*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/holdendao)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/holdenjdao)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:holden.dao@utah.edu)
-
-</div>
-
----
+<sub>`// always up for hardware hacking, RF experiments, and AI infra rabbit holes`</sub>
