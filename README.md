@@ -2,7 +2,7 @@
 
 <p align="center">Product Engineer @ <a href="https://github.com/UtahAILab">Utah AI Lab</a> · B.S. Electrical Engineering, University of Utah</p>
 
-<p align="center"><strong><a href="https://holdenjdao.github.io">holdenjdao.github.io</a></strong></p>
+<p align="center"><strong>Portfolio: <a href="https://holdenjdao.github.io">holdenjdao.github.io</a></strong></p>
 
 ## ⚡ Toolchain
 
