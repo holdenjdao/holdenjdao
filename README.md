@@ -2,6 +2,8 @@
 
 <p align="center">Product Engineer @ <a href="https://github.com/UtahAILab">Utah AI Lab</a> · B.S. Electrical Engineering, University of Utah</p>
 
+<p align="center"><strong><a href="https://holdenjdao.github.io">holdenjdao.github.io</a></strong></p>
+
 ## ⚡ Toolchain
 
 |  |  |
@@ -14,6 +16,8 @@
 
 | project | signal path | stack |
 |---|---|---|
+| **[Dori](https://github.com/Xanderman27/Dori)** | `check-in ─▶ Bayesian knowledge tracing ─▶ next item` — accessible K-12 practice platform for students with IEPs and 504 plans; **🥉 3rd place**, Minds and Machines AWS Hackathon | `Python` `FastAPI` `React` `AWS Bedrock` |
+| **[CareCart](https://github.com/Xanderman27/CareCart)** | `bilingual form ─▶ triage ─▶ staff queue` — intake and fulfillment for a children's community health team, every request prioritized and routed on arrival; **🥈 2nd place**, Intermountain Health Generative AI Hackathon | `Next.js` `TypeScript` `Claude API` |
 | **Weather Satellite Imaging Receiver** | `antenna ─▶ RTL-SDR ─▶ GNU Radio ─▶ demod ─▶ earth imagery` — decodes METEOR M2-4 transmissions with a hand-built antenna, >90% image reconstruction | `GNU Radio` `CST Studio` `DSP` |
 | **GPS Tracking Device** | `NEO-6M ─▶ ESP32 ─▶ telemetry` — real-time coordinates, speed, and altitude at 99% accuracy | `C` `Rust` `ESP32` |
 | **[Prompt Intent Taxonomy](https://github.com/holdenjdao/tokenomics)** | `prompt ─▶ intent IR ─▶ router` — provider-neutral schema for what a user wants from an AI system, so routers can pick cheaper execution paths | `YAML` `JSON Schema` |
@@ -33,7 +37,7 @@
 <p align="center">
 <a href="https://www.linkedin.com/in/holdendao"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjNEZCM0NFIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU%2BTGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn"/></a>
 &nbsp;
-<a href="mailto:holden.dao@utah.edu"><img src="https://img.shields.io/badge/holden.dao%40utah.edu-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzRGQjNDRSIgZD0iTTIwIDRINGMtMS4xIDAtMS45OS45LTEuOTkgMkwyIDE4YzAgMS4xLjkgMiAyIDJoMTZjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uOS0yLTItMnptMCA0bC04IDUtOC01VjZsOCA1IDgtNXYyeiIvPjwvc3ZnPg%3D%3D" alt="Email"/></a>
+<a href="mailto:holdendao25@gmail.com"><img src="https://img.shields.io/badge/holdendao25%40gmail.com-0d1117?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iIzRGQjNDRSIgZD0iTTIwIDRINGMtMS4xIDAtMS45OS45LTEuOTkgMkwyIDE4YzAgMS4xLjkgMiAyIDJoMTZjMS4xIDAgMi0uOSAyLTJWNmMwLTEuMS0uOS0yLTItMnptMCA0bC04IDUtOC01VjZsOCA1IDgtNXYyeiIvPjwvc3ZnPg%3D%3D" alt="Email"/></a>
 &nbsp;
-<img src="https://hits.sh/github.com/holdenjdao.svg?view=total&style=flat-square&label=profile%20views&color=4FB3CE&labelColor=0d1117" alt="Profile views"/>
+<img src="https://hits.sh/github.com/holdenjdao.svg?view=total&style=flat-square&label=Profile%20views&color=4FB3CE&labelColor=0d1117" alt="Profile views"/>
 </p>
